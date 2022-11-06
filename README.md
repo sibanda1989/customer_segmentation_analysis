@@ -14,3 +14,5 @@ I analyse data for possible quality issues in the following areas:
 * Relevancy - data applicable to task at hand
 * Validity - data contains allowable values
 * Uniqueness - there should be no duplicates
+
+and I correct these issues where possible
