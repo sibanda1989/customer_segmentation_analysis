@@ -14,3 +14,7 @@ I analyse data for possible quality issues in the following areas:
 * Relevancy - data applicable to task at hand
 * Validity - data contains allowable values
 * Uniqueness - there should be no duplicates
+
+## Missing Values
+
+There were some columns which had related product information i.e. product_class, product_line e.t.c which were missing values in the same rows. Another column had a list_price which was positively correlated to a cost_price column with full information. I leveraged this relation to fill in all missing values in these related columns using a K Nearest Neighbor algorithm from the Sci-Kit Learn library.
