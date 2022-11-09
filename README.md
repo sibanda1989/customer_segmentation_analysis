@@ -18,3 +18,5 @@ I analyse data for possible quality issues in the following areas:
 ## Missing Values
 
 There were some columns which had related product information i.e. product_class, product_line e.t.c which were missing values in the same rows. Another column had a standard_cost which was positively correlated to a list_price column with full information. I leveraged this relation to fill in all missing values in these related columns using a K Nearest Neighbor algorithm from the Sci-Kit Learn library.
+
+However, missing data in columns with demographic information like property_valuation and state were filled in using the mode of those columns.
